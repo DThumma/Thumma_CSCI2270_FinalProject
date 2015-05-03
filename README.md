@@ -67,7 +67,7 @@ OPEN ISSUES/BUGS:
     previous option. However, if we check and reset the filtering, it keeps resetting and even though they are still in the sub-menu, it lets them filter when 
     it shouldn't. 
     
-5.) After sorting it alphabetically by name, the other aspects of the item (type, style, and color) don't get sorted with the name, since they are not connected. Need to find a way to connect everything together.
+5.) After sorting it alphabetically by name, the other aspects of the item (type, style, and color) don't get sorted with the name, since they are not connected. Need to find a way to connect everything together. This then affects adding the item to the cart (it adds the right alphabetical name after being sorted, but it doesn't add the right attributes - adds the original attributes before it was sorted). 
 
 6.) If a user doesn't select a number from the menu before typing in an aspect for the item, the menu loops infinitely until you force it to quit.
     
