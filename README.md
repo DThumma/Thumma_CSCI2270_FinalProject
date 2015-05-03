@@ -67,6 +67,10 @@ OPEN ISSUES/BUGS:
     previous option. However, if we check and reset the filtering, it keeps resetting and even though they are still in the sub-menu, it lets them filter when 
     it shouldn't. 
     
-5.) Enhancement: How to return items that are similar to the one the user was looking for, if an item cannot be found in the inventory.
+5.) After sorting it alphabetically by name, the other aspects of the item (type, style, and color) don't get sorted with the name, since they are not connected. Need to find a way to connect everything together.
+
+6.) If a user doesn't select a number from the menu before typing in an aspect for the item, the menu loops infinitely until you force it to quit.
+    
+7.) Enhancement: How to return items that are similar to the one the user was looking for, if an item cannot be found in the inventory.
 
 
