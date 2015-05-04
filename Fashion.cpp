@@ -164,6 +164,8 @@ void Fashion::filterType(item *searchItems, int sizeStock, int filterType){
                 break;
             case 4:
                 cout<<"Goodbye!"<<endl;
+                styleDone = false;
+                colorDone = false;
                 break;
                 return;
             default:
@@ -264,6 +266,8 @@ void Fashion::filterStyle(item *searchItems, int sizeStock, int filterStyle){
                 break;
             case 4:
                 cout<<"Goodbye!"<<endl;
+                colorDone = false;
+                typeDone = false;
                 break;
             default:
                 cout<<"Not a valid menu selection"<<endl;
@@ -362,6 +366,8 @@ void Fashion::filterColor(item *searchItems, int sizeStock, int filterColor){
                 break;
             case 4:
                 cout<<"Goodbye!"<<endl;
+                //typeDone = false;
+                //styleDone = false;
                 break;
             default:
                 cout<<"Not a valid menu selection"<<endl;
